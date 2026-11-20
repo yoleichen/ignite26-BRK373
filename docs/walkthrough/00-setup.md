@@ -22,7 +22,7 @@ This guide uses Windows and PowerShell. On macOS or Linux, install [PowerShell 7
 1. On this repository's GitHub page, select **Code** and copy the HTTPS URL.
 2. In VS Code, open the Command Palette (**Ctrl+Shift+P**), run **Git: Clone**, paste the URL, choose a folder, and select **Open** when VS Code offers to open the cloned repository.
 3. If VS Code asks whether you trust the authors of the files in this folder, select **Yes, I trust the authors**; Restricted Mode turns off features this guide uses. If VS Code offers to install the repository's recommended extensions, select **Install**.
-4. Select **Terminal > New Terminal**. Its prompt shows the repository folder, for example `PS [path]\ai-ready-apps-azure-sql>`. Install the app dependencies and create your local settings files:
+4. Select **Terminal > New Terminal**. Its prompt shows the repository folder, for example `PS [path]\ignite26-BRK373>`. Install the app dependencies and create your local settings files:
 
 ```powershell
 npm --prefix app/frontend install

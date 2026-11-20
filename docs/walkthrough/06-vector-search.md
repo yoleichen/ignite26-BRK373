@@ -49,7 +49,7 @@ Follow your path.
 
 ### Azure OpenAI: the database creates the embeddings
 
-1. Store your Azure OpenAI key in the database. In the command terminal, whose prompt ends with the repository folder (`...\ai-ready-apps-azure-sql>`), run:
+1. Store your Azure OpenAI key in the database. In the command terminal, whose prompt ends with the repository folder (`...\ignite26-BRK373>`), run:
 
 ```powershell
 npm --prefix app/ai-service run credential
@@ -74,7 +74,7 @@ The [command](../../app/ai-service/src/credential.ts) reads your endpoint from `
 ### Ollama: the app creates the embeddings
 
 1. Make sure both model downloads have finished: `ollama list` in their separate PowerShell window shows both models.
-2. In the command terminal, whose prompt ends with the repository folder (`...\ai-ready-apps-azure-sql>`), run:
+2. In the command terminal, whose prompt ends with the repository folder (`...\ignite26-BRK373>`), run:
 
 ```powershell
 npm --prefix app/ai-service run embed
