@@ -1,0 +1,4 @@
+{
+    // Shows "Local container (Preview)" and "Deploy a local database" under New Deployment > Azure SQL Database.
+    "mssql.preview.azureSqlContainers": true
+}

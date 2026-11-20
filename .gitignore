@@ -1,0 +1,18 @@
+# Dependencies and build output
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+!.env.cloud.example
+
+# Local tooling state
+.azure/
+*.bacpac
+*.dacpac
+*.log
+.DS_Store
+Thumbs.db

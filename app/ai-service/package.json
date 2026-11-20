@@ -1,0 +1,34 @@
+{
+  "name": "casedesk-ai-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Embedding, vector retrieval, and grounded reply API for CaseDesk on Azure SQL Database.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "tsx watch --env-file-if-exists=.env src/server.ts",
+    "dev:cloud": "tsx watch --env-file=.env.cloud src/server.ts",
+    "start": "tsx --env-file-if-exists=.env src/server.ts",
+    "embed": "tsx --env-file-if-exists=.env src/embed.ts",
+    "embed:cloud": "tsx --env-file=.env.cloud src/embed.ts",
+    "calibrate": "tsx --env-file-if-exists=.env src/calibrate.ts",
+    "credential": "tsx --env-file-if-exists=.env src/credential.ts",
+    "test": "tsx --test test/*.test.ts",
+    "build": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.14.1",
+    "express": "^5.3.0",
+    "mssql": "^12.7.13",
+    "openai": "^7.45.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/mssql": "^12.3.0",
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
